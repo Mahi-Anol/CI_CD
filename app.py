@@ -3,7 +3,7 @@ from transformers import pipeline
 from pydantic import BaseModel
 
 # Initialize the classifier pipeline
-classifier = pipeline("text-classification", model='bhadresh-savani/distilbert-base-uncased-emotion')
+classifier = pipeline("text-classification", model='SamLowe/roberta-base-go_emotions')
 
 # Initialize FastAPI
 app = fastapi.FastAPI()
