@@ -1,0 +1,6 @@
+fastapi==0.112.1
+pydantic==2.8.2
+transformers==4.44.2
+uvicorn==0.30.6
+torch
+tensorflow==2.15.0
